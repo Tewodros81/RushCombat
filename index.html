@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamster Combat!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hamster Combat</h1>
+
+  <div id="battle">
+    <div class="fighter" id="hamster1">
+      <h2>Hamster 1</h2>
+      <p>HP: <span id="hp1">100</span></p>
+    </div>
+
+    <div class="fighter" id="hamster2">
+      <h2>Hamster 2</h2>
+      <p>HP: <span id="hp2">100</span></p>
+    </div>
+  </div>
+
+  <div id="controls">
+    <button onclick="attack()">Attack!</button>
+    <p id="message">Hamster 1’s turn...</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
